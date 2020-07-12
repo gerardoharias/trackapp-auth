@@ -12,6 +12,6 @@ public class AuthApiController {
     
     @RequestMapping(value="/contact", method=RequestMethod.GET)
     public ContactDTO getById(){
-        return new ContactDTO(1L, "John", "Doe", "+57 311 222 3344", "john@sinbugs.com");
+        return new ContactDTO(1L, "Lalo", "Hernandez", "+57 518 555 105", "gerardo.hernandez@sinbugs.com");
     }
 }
